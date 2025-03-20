@@ -4,12 +4,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "format": "npx prettier . --write",
+    "check": "npx prettier . --check",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@types/three": "^0.174.0",
+    "prettier": "^3.5.3",
     "typescript": "^5.8.2",
     "vite": "^6.2.2"
   },
