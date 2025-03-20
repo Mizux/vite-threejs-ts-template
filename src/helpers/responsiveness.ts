@@ -1,12 +1,12 @@
-import { WebGLRenderer } from 'three'
+import { WebGLRenderer } from "three";
 
 export function resizeRendererToDisplaySize(renderer: WebGLRenderer) {
-  const canvas = renderer.domElement
-  const width = canvas.clientWidth
-  const height = canvas.clientHeight
-  const needResize = canvas.width !== width || canvas.height !== height
+  const canvas = renderer.domElement;
+  const width = canvas.clientWidth;
+  const height = canvas.clientHeight;
+  const needResize = canvas.width !== width || canvas.height !== height;
   if (needResize) {
-    renderer.setSize(width, height, false)
+    renderer.setSize(width, height, false);
   }
-  return needResize
+  return needResize;
 }

@@ -11,6 +11,7 @@ Three.js + Vite + TypeScript starter
 - [Jump to CLI commands](#cli-commands)
 
 ---
+
 ![screenshot](docs/preview.png)
 
 ---
