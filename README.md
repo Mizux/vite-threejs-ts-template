@@ -3,9 +3,9 @@ Github-CI: [![Build Status][build_status]][build_link]
 [build_status]: ./../../actions/workflows/build.yml/badge.svg
 [build_link]: ./../../actions/workflows/build.yml
 
-# Three.js Vite Template with TypeScript
+# Vite Template with TypeScript and Three.js
 
-Three.js + Vite + TypeScript starter
+Vite + TypeScript + Three.js starter
 
 - [Demo](../../deployments/github-pages)
 - [Jump to CLI commands](#cli-commands)
